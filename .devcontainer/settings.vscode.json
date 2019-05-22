@@ -2,6 +2,8 @@
     "python.pythonPath": "${workspaceFolder}/.tox/dev/bin/python",
     "python.venvPath": "${workspaceFolder}/.tox",
     "python.jediEnabled": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnPaste": false,
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.testing.unittestEnabled": false,
