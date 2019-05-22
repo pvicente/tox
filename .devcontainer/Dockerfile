@@ -10,7 +10,7 @@ ENV SHELL /bin/bash
 
 # Install git, process tools (needed by vscode remote) and remaining tools to complete dev env. Do clean up at the end
 RUN apt-get update && apt-get -y install git procps\
-    && apt-get -y install pypy vim htop\
+    && apt-get -y install libpython2.7-dev libpython3.5-dev pypy pypy-dev vim htop\
     && apt-get autoremove -y \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*

@@ -4,6 +4,7 @@
     "context": "..",
     "dockerFile": "Dockerfile",
     "workspaceFolder": "/workspace",
+    "postCreateCommand": "tox -e dev",
     "extensions": [
         "ms-python.python"
     ]
